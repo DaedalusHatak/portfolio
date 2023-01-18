@@ -4,8 +4,10 @@
 		wykonałem</h1
 	>
 
-	<button @click="addProject" class="bg-blue-500">Add</button>
-	<button @click="removeProject(index)" class="bg-red-500">Delete</button>
+
+
+	<button @click="addProject" class="text-white bg-blue-700 hover:bg-blue-800  focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Add</button>
+	<button @click="removeProject(index)" class="focus:outline-none text-white bg-red-700 hover:bg-red-800  focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Delete</button>
 
 	<ul
 		:class="gridTemplate"
@@ -39,25 +41,9 @@ export default{
 		description: 'Zaprojektowana w Vue. Pierwszy większy projekt.',
 		img: 'logocontact.png',
 		tags: ['cieciewoda', 'vue'],
-	},
-	{
-		name: 'Working Title ',
-		description: 'Zaprojektowana w Vue. Pierwszy większy projekt.',
-		img: 'vite.svg',
-		tags: ['working', 'title', 'vue'],
-	},
-	{
-		name: 'Working Title 2',
-		description: 'Zaprojektowana w Vue. Pierwszy większy projekt.',
-		img: 'vite.svg',
-		tags: ['working', 'title', 'vue'],
-	},
-	{
-		name: 'Working Title 3',
-		description: 'Zaprojektowana w Vue. Pierwszy większy projekt.',
-		img: 'vite.svg',
-		tags: ['working', 'title', 'vue'],
-	},
+	}
+
+	
 
 	
 ],
